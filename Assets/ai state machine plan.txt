@@ -1,0 +1,52 @@
+Robot states:
+Roaming
+In sight
+attacking
+Targetting
+
+PLayer states:
+At seat
+moving
+in hiding
+
+
+if(robot.in sight & (player.at seat || player.moving)){
+robot.state = attacking;
+}
+
+if(robot.roaming && randomChance){
+robot.state = targetting;
+}
+
+if(robot.targetting && robot.position = sloman){
+robot.state = in sight;
+}
+
+if(robot.insight && player.inhiding){
+robot.finishsearch();
+robot.state = roaming
+}
+
+if(robot.roaming){
+if(robot.position = robot.destination){
+destination = position.random(lower floor);
+}
+}
+
+if(robot.targettting){
+if(light.active){
+destination = sloman;
+}else{
+if(robot.position = robot.destination){
+destination = position.random(upper floor);
+}
+}
+}
+
+if(robot.insight){
+search();  --Move into room, leave room
+}
+
+if(robot.attacking){
+activateDeath(); -- Activate death sequence
+}
