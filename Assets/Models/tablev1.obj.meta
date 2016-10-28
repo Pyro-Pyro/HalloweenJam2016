@@ -1,12 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< HEAD
 guid: dcc8bfa7fa8e696408a76f75d4a27f3c
-timeCreated: 1477491331
-=======
-guid: 98a4ce3db1cbcbc4e866523dedc59eb5
-timeCreated: 1477495160
->>>>>>> origin/master
-licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
@@ -17,6 +10,7 @@ ModelImporter:
     2300000: default
     3300000: default
     4300000: default
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -24,11 +18,7 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
-<<<<<<< HEAD
-    resampleRotations: 1
-=======
     resampleCurves: 1
->>>>>>> origin/master
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
@@ -45,7 +35,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 0
     meshCompression: 0
     addColliders: 0
     importBlendShapes: 1
@@ -79,7 +69,7 @@ ModelImporter:
     rootMotionBoneName: 
     hasTranslationDoF: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
