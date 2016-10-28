@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: f81385a0a02cdb443922c7ce9027535e
 timeCreated: 1477491336
 licenseType: Free
@@ -54,6 +55,14 @@ ModelImporter:
     4300016: Cylinder_003
     7400000: Default Take
     9500000: //RootNode
+=======
+guid: 2867dd91bf6e48442a48c0ecabc06fd2
+timeCreated: 1477495160
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName: {}
+>>>>>>> origin/master
   materials:
     importMaterials: 1
     materialName: 0
@@ -61,7 +70,11 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+<<<<<<< HEAD
     resampleRotations: 1
+=======
+    resampleCurves: 1
+>>>>>>> origin/master
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 

@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 0b37a08b026c398439a7c437f75249e9
 timeCreated: 1477491330
 licenseType: Free
@@ -12,6 +13,14 @@ ModelImporter:
     4300000: Cube
     7400000: Default Take
     9500000: //RootNode
+=======
+guid: e8f3483dc7e78494388f6fdf4f5f92c3
+timeCreated: 1477495160
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName: {}
+>>>>>>> origin/master
   materials:
     importMaterials: 1
     materialName: 0
@@ -19,7 +28,11 @@ ModelImporter:
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
+<<<<<<< HEAD
     resampleRotations: 1
+=======
+    resampleCurves: 1
+>>>>>>> origin/master
     optimizeGameObjects: 0
     motionNodeName: 
     animationImportErrors: 
